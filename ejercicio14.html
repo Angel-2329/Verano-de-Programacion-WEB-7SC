@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arreglos en JavaScript</title>
+    <link rel="stylesheet" href="css/ejercicio14.css">
+    <script src="js/ejercicio14.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Operaciones con Numeros</h1>
+
+        <form >
+            <div class="contenedor-calculadora">
+                <div class="datos">
+                    <label for="numeros">Ingresa tu Arreglo de Numeros</label>
+                    <input type="text" id="numeros" placeholder="Ej: 22,0,34,1" required>
+                </div>
+
+                <button type="button" onclick="calcular()">Calcular</button>
+
+                <div class="salida">
+                    <label for="num-may">Numero Mayor del Arreglo</label>
+                    <input type="text" id="num-may" readonly>
+
+                    <label for="num-men">Numero Menor del Arreglo</label>
+                    <input type="text" id="num-men" readonly>
+
+                    <label for="prom">Promedio del Arreglo</label>
+                    <input type="text" id="prom" readonly>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

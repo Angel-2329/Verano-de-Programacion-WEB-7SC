@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/ejercicio12.css">
+    <script src="js/ejercicio12.js"></script>
+    <title>Convertidor de Divisas</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1 class="titulo">Calculadora de Pesos (MXN) a Dolares (USD)</h1>
+
+        <form>
+            <div class="contenedor-calculadora">
+                <div class="datos">
+                    <label for="pesos">Cantidad de Dinero en Pesos Mexicanos (MXN)</label>
+                    <input type="number" id="pesos" placeholder="Ingresa la cantidad de pesos mexicanos" min="0" required>
+                </div>
+
+                <button type="button" onclick="convertirDivisas()">Convertir Divisas</button>
+
+                <div class="salida">
+                    <label for="resultado">Cantidad de Dinero en Dolares Estadunidenses (USD)</label>
+                    <input type="text" id="resultado" placeholder="Resultado en USD" readonly>
+                </div>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

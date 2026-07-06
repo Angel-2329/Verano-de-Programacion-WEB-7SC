@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estudiantes (Objetos en JS)</title>
+    <link rel="stylesheet" href="css/ejercicio15.css">
+    <script src="js/ejercicio15.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Calculadora de Promedio Grupal</h1>
+
+        <form >
+            <div class="contenedor-calculadora">
+                <div class="datos">
+                    <h2>Registo de los Estudiantes</h2>
+
+                    <label for="nombre">Ingresa el Nombre del Estudiante</label>
+                    <input type="text" id="nombre" placeholder="Ej: Angel" required>
+
+                    <label for="calificacion">Ingresa la Calificacion del Estudiante</label>
+                    <input type="number" id="calificacion" placeholder="Ej: 87" min="1"  max="100" required>
+                </div>
+
+                <button type="button" onclick="registrar()">Registrar Estudiante</button>
+
+                <div class="salida">
+                    <h2>Operaciones Calificaciones</h2>
+
+                    <label for="promedio">Promedio de los Estudiantes Ingresados</label>
+                    <input type="text" id="promedio" readonly>
+
+                    <label for="estu-max">Estudiante(s) con la Maxima Calificacion</label>
+                    <input type="text" id="estu-max" readonly>
+
+                    <label for="estu-min">Estudiante(s) con la Minima Calificacion</label>
+                    <input type="text" id="estu-min" readonly>
+                </div>
+
+                <button type="button" onclick="calcular()">Realizar Operaciones</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

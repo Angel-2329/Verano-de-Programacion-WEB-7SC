@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion de Derecho a Votar</title>
+    <link rel="stylesheet" href="css/ejercicio13.css">
+    <script src="js/ejercicio13.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Verificar Mayoria de Edad</h1>
+
+        <form >
+            <div class="contenedor-calculadora">
+                <div class="datos">
+                    <label for="edad">Ingresa tu Edad</label>
+                    <input type="number" id="edad" placeholder="Ej: 22" min="1" required>
+                </div>
+
+                <button type="button" onclick="verificar()">Verificar Edad</button>
+
+                <div class="salida">
+                    <label for="resultado">Validacion</label>
+                    <input type="text" id="resultado" placeholder="Decision de Derecho a Voto">
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

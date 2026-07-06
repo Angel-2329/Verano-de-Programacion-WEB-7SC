@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operaciones Matematicas</title>
+    <link rel="stylesheet" href="css/ejercicio16.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script defer src="js/ejercicio16.js"></script>
+</head>
+<body>
+    <div class="box-contenedor">
+        <form>
+            <h1>Operaciones</h1>
+            <div class="box-titulo">
+                <h2>Introduce los numeros para realizar las operaciones</h2>
+            </div>
+
+            <div class="box-entrada">
+                <label for="numero1">Introduce el numero 1.</label>
+                <input type="text" id="numero1" placeholder="Ej: 5" required>
+
+                <label for="numero2">Introduce el numero 2.</label>
+                <input type="text" id="numero2" placeholder="Ej: 9" required>
+            </div>
+
+            <div class="box-resultado">
+                <label for="resultado">Resultado de la Operacion</label>
+                <input type="text" id="resultado" readonly>
+            </div>
+
+            <div class="box-botones">
+                <button id="btn-sumar" type="button">Sumar</button>
+                <button id="btn-restar" type="button">Restar</button>
+                <button id="btn-dividir" type="button">Dividir</button>
+                <button id="btn-multiplicar" type="button">Multiplicar</button>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

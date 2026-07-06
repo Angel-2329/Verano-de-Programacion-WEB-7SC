@@ -1,0 +1,65 @@
+body{
+    background: #1F7D53;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 100%;
+}
+
+label{
+    font-size: 110%;
+    color: #c3cad4;
+    display: block;
+}
+
+h2{
+    font-size: 130%;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+    font-weight: 900;
+    font-size: 150%;
+}
+.contenedor{
+    width: 85%;
+    text-align: center;
+    padding: 3%;
+    margin: 10% auto;
+    box-sizing: border-box;
+    border-top: 4px solid #000f;
+    border-radius: 15px;
+    background: linear-gradient(#27391C, transparent);
+    box-shadow: 0 0 5px 4px #020b29;;
+}
+
+.contenedor-calculadora{
+    text-align: left;
+    margin: 1%;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+.datos, .salida{
+    margin: 5% 1%;
+}
+
+button{
+    margin: 0px 65%;
+    background: #18230F;
+    font-weight: bold;
+    font-size: 90%;
+    color: #dfdfdf;
+    width: 35%;
+}
+
+input{
+    margin: 1% 2%;
+    width: 50%;
+    color: #020b29;
+    border-radius: 6px;
+    font-size: 100%;
+}
+
+#estu-max,#estu-min, #promedio{
+    width: 90%;
+}
