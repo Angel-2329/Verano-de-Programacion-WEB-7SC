@@ -1,4 +1,3 @@
-
 const gestorTareas = (() => 
 {
     //Se buca las tareas prevviamente guardadas
