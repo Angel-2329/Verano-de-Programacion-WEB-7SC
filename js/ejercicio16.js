@@ -1,5 +1,6 @@
 const validacion = /^[+-]?\d+(\.\d+)?$/;
 
+
 function validar_numero (operacion_elegida)
 {
     let numero1 = document.getElementById("numero1").value;
