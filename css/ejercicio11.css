@@ -1,11 +1,11 @@
 body{
     background: #CAAA98;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
+    width: 80%;
 }
 
 label{
-    font-size: 120%;
+    font-size: 140%;
     color: #020b29;
     display: block;
 }
@@ -13,10 +13,10 @@ h1{
     text-align: center;
     color: #1A1953;
     font-weight: 900;
-    font-size: 150%;
+    font-size: 200%;
 }
 .contenedor{
-    width: 80%;
+    width: 65%;
     text-align: center;
     padding: 3%;
     margin: 10% auto;
@@ -39,17 +39,17 @@ h1{
 }
 
 button{
-    margin: 0px 55%;
+    margin: 0px 65%;
     background: #9A8678;
     font-weight: bold;
     font-size: 95%;
     color: #dfdfdf;
-    width: 40%;
+    width: 30%;
 }
 
 input{
     margin: 1% 3%;
-    width: 95%;
+    width: 45%;
     color: #020b29;
     font-size:100%;
 }

@@ -1,27 +1,27 @@
 body{
     background: #1F7D53;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    width: 100%;
+    width: 60%;
 }
 
 label{
-    font-size: 110%;
+    font-size: 140%;
     color: #c3cad4;
     display: block;
 }
 
 h2{
-    font-size: 130%;
+    font-size: 150%;
 }
 
 h1{
     text-align: center;
     color: #fff;
     font-weight: 900;
-    font-size: 150%;
+    font-size: 200%;
 }
 .contenedor{
-    width: 85%;
+    width: 65%;
     text-align: center;
     padding: 3%;
     margin: 10% auto;
