@@ -1,4 +1,5 @@
 // Seleccionar los elementos importantes del DOM
+
 const input = document.getElementById('nuevoElemento');
 const botonAgregar = document.getElementById('agregarBtn');
 const lista = document.getElementById('lista');
